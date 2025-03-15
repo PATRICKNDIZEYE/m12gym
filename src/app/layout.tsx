@@ -1,5 +1,6 @@
 import { Poppins } from 'next/font/google'
-import './@Codebase/styles/globals.css'
+import './styles/globals.css'
+import type { Metadata } from 'next'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -7,7 +8,7 @@ const poppins = Poppins({
   variable: '--font-poppins',
 })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'MU12 Fitness Gym - Your Fitness Journey Starts Here',
   description: 'Transform your body and mind with our professional training programs',
   icons: {

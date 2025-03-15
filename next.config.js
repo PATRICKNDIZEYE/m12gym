@@ -7,6 +7,15 @@ const nextConfig = {
         hostname: '**',
       },
     ],
+    domains: ['images.unsplash.com'],
+  },
+  webpack: (config) => {
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      fs: false,
+    };
+    
+    return config;
   },
 };
 

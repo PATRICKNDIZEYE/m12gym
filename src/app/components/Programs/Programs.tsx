@@ -8,26 +8,16 @@ const programs = [
     title: "Personal Training",
     description: "One-on-one customized training sessions with expert trainers",
     image: "/Images/WhatsApp Image 2025-03-15 at 12.32.05.jpeg",
-    price: "From RWF 30,000/session"
+    price: "From RWF 25,000/session"
   },
   {
     title: "Group Classes",
     description: "High-energy group workouts including HIIT, Cardio, and Strength Training",
-    image: "/Images/WhatsApp Image 2025-03-15 at 12.32.06.jpeg",
-    price: "From RWF 20,000/class"
-  },
-  {
-    title: "Weight Training",
-    description: "Structured weight training programs for muscle building and toning",
-    image: "/Images/WhatsApp Image 2025-03-15 at 12.32.07.jpeg",
-    price: "From RWF 25,000/month"
-  },
-  {
-    title: "Cardio Sessions",
-    description: "State-of-the-art cardio equipment and guided cardio workouts",
     image: "/Images/WhatsApp Image 2025-03-15 at 12.32.08.jpeg",
-    price: "From RWF 15,000/month"
+    price: "From RWF 20,000/class"
   }
+
+ 
 ]
 
 export const Programs = () => {
