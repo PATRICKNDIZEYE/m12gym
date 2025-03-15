@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install react-icons@latest && next build",
+  "buildCommand": "npm install && next build",
   "installCommand": "npm install",
   "framework": "nextjs"
 } 
