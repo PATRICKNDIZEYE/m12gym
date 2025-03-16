@@ -12,14 +12,29 @@ const heroImages = [
     subtitle: 'Expert Personal Training'
   },
   {
-    src: '/Images/WhatsApp Image 2025-03-15 at 12.32.06.jpeg',
+    src: '/Images/WhatsApp Image 2025-03-15 at 12.32.08.jpeg',
     title: 'State-of-the-art Equipment',
     subtitle: 'Modern Fitness Facility'
   },
   {
-    src: '/Images/WhatsApp Image 2025-03-15 at 12.32.07.jpeg',
-    title: 'Group Classes',
-    subtitle: 'Train Together, Grow Together'
+    src: "/images/football/WhatsApp Image 2025-03-16 at 17.48.08.jpeg",
+    title: 'Football Academy',
+    subtitle: 'Professional Coaching for All Ages'
+  },
+  {
+    src: "/images/football/WhatsApp Image 2025-03-16 at 17.48.11.jpeg",
+    title: 'Youth Development',
+    subtitle: 'U8 to U17 Training Programs'
+  },
+  {
+    src: "/images/karate/WhatsApp Image 2025-03-16 at 17.55.25.jpeg",
+    title: 'Karate Training',
+    subtitle: 'Learn Self-Defense & Discipline'
+  },
+  {
+    src: "/images/karate/WhatsApp Image 2025-03-16 at 17.55.27.jpeg",
+    title: 'All Skill Levels',
+    subtitle: 'From Beginners to Advanced'
   }
 ]
 
