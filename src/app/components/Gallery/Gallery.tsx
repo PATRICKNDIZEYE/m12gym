@@ -6,11 +6,17 @@ import { ImageModal } from './ImageModal'
 
 const gymImages = [
   '/Images/WhatsApp Image 2025-03-15 at 12.32.05.jpeg',
+  '/Images/WhatsApp Image 2025-03-15 at 12.32.05 (1).jpeg',
+  '/Images/WhatsApp Image 2025-03-15 at 12.32.05 (2).jpeg',
+  '/Images/WhatsApp Image 2025-03-15 at 12.32.05 (3).jpeg',
+  '/Images/WhatsApp Image 2025-03-15 at 12.32.05 (4).jpeg',
   '/Images/WhatsApp Image 2025-03-15 at 12.32.06.jpeg',
+  '/Images/WhatsApp Image 2025-03-15 at 12.32.06 (1).jpeg',
+  '/Images/WhatsApp Image 2025-03-15 at 12.32.06 (2).jpeg',
   '/Images/WhatsApp Image 2025-03-15 at 12.32.07.jpeg',
   '/Images/WhatsApp Image 2025-03-15 at 12.32.08.jpeg',
   '/Images/WhatsApp Image 2025-03-15 at 12.33.37.jpeg',
-  '/Images/WhatsApp Image 2025-03-15 at 12.32.05 (1).jpeg',
+  '/Images/WhatsApp Image 2025-03-15 at 12.33.37 (1).jpeg',
 ]
 
 const footballImages = [
@@ -20,6 +26,12 @@ const footballImages = [
   "/Images/football/WhatsApp Image 2025-03-16 at 17.48.11.jpeg",
   "/Images/football/WhatsApp Image 2025-03-16 at 17.48.12.jpeg",
   "/Images/football/WhatsApp Image 2025-03-16 at 17.48.13.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.14.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.15.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.16.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.17.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.18.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.08 (1).jpeg",
 ]
 
 const karateImages = [
