@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const reviews = [
   {
-    name: "MURINDHABI Olivier",
+    name: "ME MURINDAHABI Olivier",
     role: "Member",
     comment: "MU12 Fitness has transformed my life. The trainers are exceptional and the equipment is top-notch.",
     image: "/Images/olivier.png"
