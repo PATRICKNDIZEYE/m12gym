@@ -27,12 +27,12 @@ const heroImages = [
     subtitle: 'U8 to U17 Training Programs'
   },
   {
-    src: "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.25.jpeg",
+    src: encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.25.jpeg"),
     title: 'Karate Training',
     subtitle: 'Learn Self-Defense & Discipline'
   },
   {
-    src: "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.27 (1).jpeg",
+    src: encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.27 (1).jpeg"),
     title: 'All Skill Levels',
     subtitle: 'From Beginners to Advanced'
   }
