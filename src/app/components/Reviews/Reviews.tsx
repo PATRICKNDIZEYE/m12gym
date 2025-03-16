@@ -5,10 +5,10 @@ import Image from 'next/image'
 
 const reviews = [
   {
-    name: "Murindahabi Olivier",
+    name: "MURINDHABI Olivier",
     role: "Member",
     comment: "MU12 Fitness has transformed my life. The trainers are exceptional and the equipment is top-notch.",
-    image: "/Images/WhatsApp Image 2025-03-15 at 12.32.05.jpeg"
+    image: "/Images/olivier.png"
   },
   {
     name: "MUVANDIMWE jmv ",
