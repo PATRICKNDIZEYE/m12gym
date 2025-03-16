@@ -24,11 +24,17 @@ const footballImages = [
 
 const karateImages = [
   "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.25.jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.26 (1).jpeg",
   "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.26.jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.27 (1).jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.27 (2).jpeg",
   "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.27.jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.28 (1).jpeg",
   "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.28.jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.29 (1).jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.29 (2).jpeg",
   "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.29.jpeg",
-  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.30.jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.30.jpeg"
 ]
 
 type GalleryTab = 'gym' | 'football' | 'karate'
