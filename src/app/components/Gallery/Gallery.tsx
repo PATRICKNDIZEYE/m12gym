@@ -23,18 +23,18 @@ const footballImages = [
 ]
 
 const karateImages = [
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.25.jpeg"),
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.26 (1).jpeg"),
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.26.jpeg"),
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.27 (1).jpeg"),
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.27 (2).jpeg"),
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.27.jpeg"),
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.28 (1).jpeg"),
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.28.jpeg"),
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.29 (1).jpeg"),
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.29 (2).jpeg"),
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.29.jpeg"),
-  encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.30.jpeg")
+  "/Images/karate/karate1.jpeg",
+  "/Images/karate/karate2.jpeg",
+  "/Images/karate/karate3.jpeg",
+  "/Images/karate/karate4.jpeg",
+  "/Images/karate/karate5.jpeg",
+  "/Images/karate/karate6.jpeg",
+  "/Images/karate/karate7.jpeg",
+  "/Images/karate/karate8.jpeg",
+  "/Images/karate/karate9.jpeg",
+  "/Images/karate/karate10.jpeg",
+  "/Images/karate/karate11.jpeg",
+  "/Images/karate/karate12.jpeg"
 ]
 
 type GalleryTab = 'gym' | 'football' | 'karate'

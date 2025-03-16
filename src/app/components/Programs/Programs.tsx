@@ -25,7 +25,7 @@ const programs = [
   {
     title: "Karate Training",
     description: "Learn martial arts with our experienced instructors. Classes available for all ages - Dufite ibyiciro 4, for both boys and girls.",
-    image: encodeURI("/Images/karate/WhatsApp Image 2025-03-16 at 17.55.25.jpeg"),
+    image: "/Images/karate/karate1.jpeg",
     categories: ["Beginners", "Intermediate", "Advanced", "Elite"]
   }
 ]
