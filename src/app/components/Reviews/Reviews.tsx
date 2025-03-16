@@ -5,22 +5,22 @@ import Image from 'next/image'
 
 const reviews = [
   {
-    name: "Jean-Paul Mugisha",
-    role: "Member since 2023",
+    name: "Murindahabi Olivier",
+    role: "Member",
     comment: "MU12 Fitness has transformed my life. The trainers are exceptional and the equipment is top-notch.",
     image: "/Images/WhatsApp Image 2025-03-15 at 12.32.05.jpeg"
   },
   {
-    name: "Alice Uwase",
-    role: "Fitness Enthusiast",
+    name: "MUVANDIMWE jmv ",
+    role: "Former Rayon Sport player",
     comment: "The best gym in Kigali! The community here is so supportive and motivating.",
     image: "/Images/WhatsApp Image 2025-03-15 at 12.32.06.jpeg"
   },
   {
-    name: "Eric Ndayishimiye",
+    name: "YOUSSEF RHAB",
     role: "Professional Athlete",
     comment: "As a professional athlete, I need the best facilities. MU12 Fitness exceeds all expectations.",
-    image: "/Images/WhatsApp Image 2025-03-15 at 12.32.07.jpeg"
+    image: "/Images/rahab.png"
   }
 ]
 

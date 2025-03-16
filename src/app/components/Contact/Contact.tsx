@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, FormEvent } from 'react'
-import { FaPhone, FaWhatsapp, FaMapMarkerAlt } from 'react-icons/fa'
+import { FaPhone, FaWhatsapp, FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa'
 import { SuccessMessage } from './SuccessMessage'
 
 export const Contact = () => {
@@ -77,6 +77,20 @@ export const Contact = () => {
                 <p className="text-gray-600">Kigali, Rwanda</p>
                 <p className="text-gray-600">Open: Monday - Sunday</p>
                 <p className="text-gray-600">Hours: 6:00 AM - 10:00 PM</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 rounded-full bg-red-600/10 flex items-center justify-center text-red-600">
+                <FaEnvelope size={20} />
+              </div>
+              <div>
+                <h4 className="font-medium mb-1">Email Us</h4>
+                <a 
+                  href="mailto:jeammuvandimwe@gmail.com"
+                  className="text-gray-600 hover:text-red-600 transition-colors"
+                >
+                  jeammuvandimwe@gmail.com
+                </a>
               </div>
             </div>
           </div>

@@ -105,14 +105,18 @@ export const Hero = () => {
               </a>
               <div className="flex items-center gap-4">
                 <span className="text-sm text-gray-300">FOLLOW US</span>
-                <a href="#" className="text-white hover:text-red-500 transition-colors">
-                  <FaFacebook size={24} />
-                </a>
-                <a href="#" className="text-white hover:text-red-500 transition-colors">
+                <a 
+                  href="https://www.instagram.com/mu12_fitnessgym" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-red-500 transition-colors"
+                >
                   <FaInstagram size={24} />
                 </a>
                 <a 
                   href="https://wa.me/250794466912" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white hover:text-red-500 transition-colors"
                 >
                   <FaWhatsapp size={24} />
