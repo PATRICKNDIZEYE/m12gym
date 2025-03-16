@@ -42,6 +42,7 @@ type GalleryTab = 'gym' | 'football' | 'karate'
 export const Gallery = () => {
   const [activeTab, setActiveTab] = useState<GalleryTab>('gym')
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
+  const [loading, setLoading] = useState<{ [key: string]: boolean }>({})
 
   const images = {
     gym: gymImages,
@@ -99,12 +100,21 @@ export const Gallery = () => {
                 transform transition-transform hover:scale-105"
               onClick={() => setSelectedImage(image)}
             >
+              {loading[image] && (
+                <div className="absolute inset-0 bg-gray-200 animate-pulse" />
+              )}
               <Image
                 src={image}
                 alt={`${activeTab} image`}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 33vw"
+                onLoadingComplete={() => {
+                  setLoading(prev => ({ ...prev, [image]: false }))
+                }}
+                onLoadStart={() => {
+                  setLoading(prev => ({ ...prev, [image]: true }))
+                }}
               />
             </div>
           ))}

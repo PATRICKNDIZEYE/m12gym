@@ -40,6 +40,7 @@ const heroImages = [
 
 export const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
+  const [loading, setLoading] = useState<{ [key: string]: boolean }>({})
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -59,6 +60,9 @@ export const Hero = () => {
               index === currentSlide ? 'opacity-100' : 'opacity-0'
             }`}
           >
+            {loading[image.src] && (
+              <div className="absolute inset-0 bg-gray-200 animate-pulse" />
+            )}
             <Image
               src={image.src}
               alt={image.title}
@@ -67,6 +71,12 @@ export const Hero = () => {
               priority={index === 0}
               sizes="100vw"
               quality={90}
+              onLoadingComplete={() => {
+                setLoading(prev => ({ ...prev, [image.src]: false }))
+              }}
+              onLoadStart={() => {
+                setLoading(prev => ({ ...prev, [image.src]: true }))
+              }}
             />
             {/* Dark Overlay */}
             <div className="absolute inset-0 bg-black/50" />

@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import { Parallax } from '../Parallax/Parallax'
 import Image from 'next/image'
 
@@ -31,6 +32,8 @@ const programs = [
 ]
 
 export const Programs = () => {
+  const [loading, setLoading] = useState<{ [key: string]: boolean }>({})
+
   return (
     <section id="programs" className="py-20 relative overflow-visible">
       {/* Background */}
@@ -50,6 +53,9 @@ export const Programs = () => {
                 transition-all duration-300 hover:-translate-y-1"
             >
               <div className="relative h-64">
+                {loading[program.image] && (
+                  <div className="absolute inset-0 bg-gray-200 animate-pulse" />
+                )}
                 <Image
                   src={program.image}
                   alt={program.title}
@@ -57,6 +63,12 @@ export const Programs = () => {
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                   priority={index === 0}
+                  onLoadingComplete={() => {
+                    setLoading(prev => ({ ...prev, [program.image]: false }))
+                  }}
+                  onLoadStart={() => {
+                    setLoading(prev => ({ ...prev, [program.image]: true }))
+                  }}
                 />
               </div>
               <div className="p-6">
