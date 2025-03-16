@@ -27,12 +27,12 @@ const heroImages = [
     subtitle: 'U8 to U17 Training Programs'
   },
   {
-    src: "/Images/karate/karate1.jpeg",
+    src: "/Images/Karate/karate1.jpeg",
     title: 'Karate Training',
     subtitle: 'Learn Self-Defense & Discipline'
   },
   {
-    src: "/Images/karate/karate4.jpeg",
+    src: "/Images/Karate/karate4.jpeg",
     title: 'All Skill Levels',
     subtitle: 'From Beginners to Advanced'
   }

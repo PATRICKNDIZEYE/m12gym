@@ -23,18 +23,18 @@ const footballImages = [
 ]
 
 const karateImages = [
-  "/Images/karate/karate1.jpeg",
-  "/Images/karate/karate2.jpeg",
-  "/Images/karate/karate3.jpeg",
-  "/Images/karate/karate4.jpeg",
-  "/Images/karate/karate5.jpeg",
-  "/Images/karate/karate6.jpeg",
-  "/Images/karate/karate7.jpeg",
-  "/Images/karate/karate8.jpeg",
-  "/Images/karate/karate9.jpeg",
-  "/Images/karate/karate10.jpeg",
-  "/Images/karate/karate11.jpeg",
-  "/Images/karate/karate12.jpeg"
+  "/Images/Karate/karate1.jpeg",
+  "/Images/Karate/karate2.jpeg",
+  "/Images/Karate/karate3.jpeg",
+  "/Images/Karate/karate4.jpeg",
+  "/Images/Karate/karate5.jpeg",
+  "/Images/Karate/karate6.jpeg",
+  "/Images/Karate/karate7.jpeg",
+  "/Images/Karate/karate8.jpeg",
+  "/Images/Karate/karate9.jpeg",
+  "/Images/Karate/karate10.jpeg",
+  "/Images/Karate/karate11.jpeg",
+  "/Images/Karate/karate12.jpeg"
 ]
 
 type GalleryTab = 'gym' | 'football' | 'karate'
