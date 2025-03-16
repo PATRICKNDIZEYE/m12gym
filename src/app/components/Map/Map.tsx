@@ -23,7 +23,10 @@ export const Map = () => {
               <div className="absolute -inset-4 bg-red-500 rounded-full opacity-30 animate-pulse" />
               {/* Marker */}
               <div className="relative bg-red-600 text-white px-4 py-2 rounded-lg shadow-lg">
-                <span className="font-semibold">MU12 GYM</span>
+                <div className="text-center">
+                  <span className="font-semibold block">MU12 GYM</span>
+                  <span className="text-sm block">NYABYONDO (KWA KIRAGI)</span>
+                </div>
                 <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-red-600 rotate-45" />
               </div>
             </div>
