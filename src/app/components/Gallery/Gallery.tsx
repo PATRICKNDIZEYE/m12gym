@@ -14,21 +14,21 @@ const gymImages = [
 ]
 
 const footballImages = [
-  "/images/football/WhatsApp Image 2025-03-16 at 17.48.08.jpeg",
-  "/images/football/WhatsApp Image 2025-03-16 at 17.48.09.jpeg",
-  "/images/football/WhatsApp Image 2025-03-16 at 17.48.10.jpeg",
-  "/images/football/WhatsApp Image 2025-03-16 at 17.48.11.jpeg",
-  "/images/football/WhatsApp Image 2025-03-16 at 17.48.12.jpeg",
-  "/images/football/WhatsApp Image 2025-03-16 at 17.48.13.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.08.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.09.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.10.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.11.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.12.jpeg",
+  "/Images/football/WhatsApp Image 2025-03-16 at 17.48.13.jpeg",
 ]
 
 const karateImages = [
-  "/images/karate/WhatsApp Image 2025-03-16 at 17.55.25.jpeg",
-  "/images/karate/WhatsApp Image 2025-03-16 at 17.55.26.jpeg",
-  "/images/karate/WhatsApp Image 2025-03-16 at 17.55.27.jpeg",
-  "/images/karate/WhatsApp Image 2025-03-16 at 17.55.28.jpeg",
-  "/images/karate/WhatsApp Image 2025-03-16 at 17.55.29.jpeg",
-  "/images/karate/WhatsApp Image 2025-03-16 at 17.55.30.jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.25.jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.26.jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.27.jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.28.jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.29.jpeg",
+  "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.30.jpeg",
 ]
 
 type GalleryTab = 'gym' | 'football' | 'karate'

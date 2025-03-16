@@ -19,13 +19,13 @@ const programs = [
   {
     title: "Football Academy",
     description: "Join our football academy for boys and girls in age groups: U8, U12, U14, and U17. Professional coaching and development programs.",
-    image: "/images/football/WhatsApp Image 2025-03-16 at 17.48.08.jpeg",
+    image: "/Images/football/WhatsApp Image 2025-03-16 at 17.48.08.jpeg",
     categories: ["U8", "U12", "U14", "U17"]
   },
   {
     title: "Karate Training",
     description: "Learn martial arts with our experienced instructors. Classes available for all ages - Dufite ibyiciro 4, for both boys and girls.",
-    image: "/images/karate/WhatsApp Image 2025-03-16 at 17.55.25.jpeg",
+    image: "/Images/karate/WhatsApp Image 2025-03-16 at 17.55.25.jpeg",
     categories: ["Beginners", "Intermediate", "Advanced", "Elite"]
   }
 ]
