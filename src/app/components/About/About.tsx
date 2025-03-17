@@ -8,7 +8,7 @@ export const About = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8">About MU12 Fitness</h2>
             <p className="text-gray-600 mb-6">
-              Located in the heart of Kigali, MU12 Fitness Gym is more than just a gym – 
+              Located at NYABYONDO (kwa Kirangi), MU12 Fitness Gym is more than just a gym – 
               it's a community dedicated to transforming lives through fitness. Our 
               state-of-the-art facility offers the latest in exercise equipment and 
               expert guidance to help you achieve your fitness goals.
